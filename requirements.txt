@@ -1,0 +1,5 @@
+tk
+openpyxl
+selenium
+numpy
+opencv-python
