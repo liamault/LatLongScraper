@@ -35,6 +35,7 @@ ws = wb.worksheets[0]
 
 #change 1 to a 2 if first row of excel is labels
 for r in range(1,ws.max_row+1):
+    #adjust
     addr = str(ws['A' + str(r)].value) + ", " + str(ws['B' + str(r)].value) + ", " + str(ws['C' + str(r)].value)
     print(addr)
 
